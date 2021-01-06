@@ -1,6 +1,6 @@
 # To install API:
 
-#### 1.go into server and run npm install
+#### 1. ```cd``` into /server and run ```npm install```
 
 #### 2.```cp .env.example .env```
 	
@@ -10,7 +10,7 @@
 
 # To install Front End:
 
-#### 1. go into client and run npm install
+#### 1. ```cd``` into /client and run ```npm install```
 	
 #### 2.	```npm start```
 	
