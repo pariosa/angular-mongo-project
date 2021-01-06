@@ -1,7 +1,9 @@
+
+require('dotenv').config();
+require('./db/server');
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-
 const app = express();
 
 var corsOptions = {
@@ -18,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "This is the default route" });
+  res.json({ message: "This is the api, please pass requests through the proper channels" });
 });
 
 // set port, listen for requests
