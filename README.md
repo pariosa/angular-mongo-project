@@ -2,8 +2,7 @@
 
 #### 1.go into server and run npm install
 
-#### 2.
-	```cp .env.example .env```
+#### 2.```cp .env.example .env```
 	
 #### 3. add mongo connection string uri in env
 	
